@@ -1,8 +1,19 @@
 fieldset {
-background-color: antiquewhite;
-margin: auto;
+background: linear-gradient(#00B4D8, #90E0EF, #CAF0F8);
+padding: 10px;
+border-radius: 10px;
 }
 label{
   width: 150px;
   display: inline-block;
+  margin: 0.2cm;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+input { 
+  padding: 4px;
+  margin: 5px;
+  font-size: 16px;
+  border-radius: 3px;
 }
