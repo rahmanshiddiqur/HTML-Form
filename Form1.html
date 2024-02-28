@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Practice Day 1</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <style type="text/css">
+   
+  </style>
+  <body>
+  <h1 style="text-align: center; background-color: rgb(222, 138, 28);margin: auto;">From practice day 1</h1> <br> <hr>
+  <form action="#" method="post">
+    <fieldset>
+      <legend style="text-align: center; font-size: large;"> <b>Personal Information Form</b> </legend>
+
+      
+      <label for="fname"> First Name: </label>
+      <input type="text" id="fname" name="fname" placeholder="user first name"><br>
+
+      <label for="lname"> Last Name: </label>
+      <input type="text" id="lname" name="lname" placeholder="user last name"><br>
+
+      <label for="password"> password: </label>
+      <input type="password" id="password" name="password"
+      required placeholder="atleast 8 characters"><br>
+
+      <label for="email"> Email Address: </label>
+      <input type="email" id="email" name="emai" required><br>
+
+      <label for="country"> Country: </label>
+      <input list="con">
+      <datalist id="con">
+        <option value="Bangladesh">Bangladesh</option>
+        <option value="Chian">China</option>
+        <option value="America">America</option>
+        <option value="England">England</option>
+      </datalist><br>
+
+      <label for="Caddress"> Current Address: </label>
+      <input type="text" id="Caddress" name="address" required><br>
+      <label for="Paddress"> Parmanent Address: </label>
+      <input type="text" id="Paddress" name="address" required><br>
+     
+
+
+
+      Gender:
+      <input type="radio" id="male" name="gender"> 
+      <label for="male"> Male</label>
+      
+      <input type="radio" id="female" name="gender"> 
+      <label for="female"> Female</label><br>
+      
+      
+      <label for="phone"> Phone Number </label><br>
+      <select name="code">
+        <option value="+886">+886</option>
+        <option value="+880">+880</option>
+        <option value="+001">+001</option>
+        <option value="+991">+991</option>
+      </select>
+      <input type="text" id="phone" name="phone" required><br>
+
+
+      <label for="date"> Date of Birth </label>
+      <input type="date" id="date" name="dob"><br>
+
+      <textarea rows="3" cols="50" placeholder="Your Comment"></textarea><br>
+
+      <input type="submit" value="Send" style="background-color: green;color: aliceblue; padding: auto; font-family: 'Courier New', Courier, monospace;"> 
+      <input type="reset" value="Reset" style="background-color: red; color: aliceblue;padding: auto;font-family: 'Courier New', Courier, monospace;">
+
+    </fieldset>
+  </form>
+
+  </body>
+</style>
+  
+</html>

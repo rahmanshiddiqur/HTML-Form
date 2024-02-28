@@ -1,0 +1,8 @@
+fieldset {
+background-color: antiquewhite;
+margin: auto;
+}
+label{
+  width: 150px;
+  display: inline-block;
+}
